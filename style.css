@@ -1,0 +1,72 @@
+span {
+    font-weight: bold;
+}
+
+span:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    color: black;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+/* a:visited {
+    color: green;
+} */
+
+body {
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(223, 155, 155);
+    padding: 10px;
+    border-radius: 2px solid black;
+    box-shadow: rgb(243, 13, 13) 0px 5px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+    color: rgba(48, 43, 43, 0.753);
+    height: auto;
+}
+
+.container:hover {
+    transform: scale(0.9);
+    box-shadow: rgba(238, 136, 19, 0.24) 0px 54px 55px, rgba(221, 113, 11, 0.425) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-image: linear-gradient(to right top, #ca8a04, #d39b27, #ddad3f, #e6be56, #f0cf6c, #f4d776, #f9de80, #fde68a, #fde68a, #fde68a, #fde68a, #fde68a);
+    color: rgb(0, 0, 0);
+}
+
+.nav-container {
+    margin: 30px;
+}
+
+.delete_user {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+.delete_user:hover {
+    background-color: rgba(255, 0, 0, 0.788);
+    color: whitesmoke;
+}
